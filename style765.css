@@ -1,0 +1,166 @@
+@media (max-width:765px) {
+
+    .logo--title {
+        padding-left: 8px;
+    }
+
+    .nav_link {
+        font-size: 8px;
+    }
+
+    .get-started__info--wrapper {
+        font-size: 18px;
+    }
+
+    .get-started__info--title {
+        font-size: 38px;
+    }
+
+    .get-started__input--wrapper {
+        max-width: 360px;
+    }
+
+    .get-started__input {
+        font-size: 12px;
+    }
+
+    .get-started__btn,
+    .get-started__btn2,
+    .contact-us__btn {
+        font-size: 12px;
+    }
+
+    .get-started__sticker--img {
+
+        max-width: 360px;
+    }
+
+    .features__header--header,
+    .quality-work__info--header,
+    .started-steps__info--header,
+    .values-statement__info--header,
+    .pricing-statement__info--header,
+    .testimonial-statement__info--header,
+    .faqs__header--header {
+
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.4px;
+        padding-top: 96px;
+        padding-bottom: 20px;
+    }
+
+    .features__header--title,
+    .quality-work__info--title,
+    .started-steps__info--title,
+    .values-statement__info--title,
+    .testimonial-statement__info--title {
+
+        font-size: 42px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        letter-spacing: 1.4px;
+    }
+
+    .features__header--para,
+    .quality-work__info--para,
+    .values-statement__info--para,
+    .pricing-statement__info--para {
+        padding-bottom: 56px;
+        max-width: 580px;
+        font-size: 20px;
+
+    }
+
+    .feature__services--wrapper {
+        max-width: 600px;
+    }
+
+    .feature__service--wrapper {
+        width: calc(100% / 2);
+    }
+
+    .service__logo {
+        padding: 18px;
+        font-size: 18px;
+    }
+
+    .service__details--wrapper {
+        padding: 4px 8px;
+    }
+
+    .service__details--title {
+        font-size: 20px;
+        font-weight: 640;
+        padding-bottom: 12px;
+        letter-spacing: 1.4px;
+    }
+
+    .service__details--para {
+        letter-spacing: 1.4px;
+        font-size: 14px;
+    }
+
+    .quality-work__info--wrapper,
+    .values--wrapper,
+    .testimonials--wrapper {
+        max-width: 600px;
+        padding: 228px 18px;
+    }
+
+    .quality-work__sticker--img {
+        max-width: 300px;
+
+        max-height: 300px;
+        border: .5px solid rgba(124, 139, 161, 0.318);
+    }
+
+    .pricing-plans--wrapper {
+        flex-direction: column;
+    }
+
+    .testimonials--wrapper {
+        max-width: 800px;
+    }
+
+    .testimonial-statement__sticker--img {
+        max-width: 300px;
+
+    }
+
+    .review--para {
+        display: none;
+    }
+
+    .faqs--wrapper {
+        max-width: 800px;
+    }
+
+    .footing-button {
+        width: 700px;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 8px;
+    }
+
+    .footer-copywrite--wrapper {
+        height: 124px;
+    }
+
+    .footer--wrapper {
+        height: 240px;
+    }
+
+    .section__name {
+        font-weight: 500;
+        padding-bottom: 8px;
+
+    }
+
+    .section__items {
+        padding-top: 12px;
+        font-size: 12px;
+        height: 100%;
+
+    }
+}
