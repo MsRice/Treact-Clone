@@ -1,4 +1,15 @@
+/*  For T60 Tablets */
 @media (max-width:765px) {
+
+
+    .row {
+        max-width: 600px;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 
     .logo--title {
         padding-left: 8px;
@@ -48,6 +59,7 @@
         letter-spacing: 1.4px;
         padding-top: 96px;
         padding-bottom: 20px;
+        text-align: center;
     }
 
     .features__header--title,
@@ -60,6 +72,7 @@
         font-weight: 500;
         padding-bottom: 20px;
         letter-spacing: 1.4px;
+        text-align: center;
     }
 
     .features__header--para,
@@ -108,8 +121,27 @@
         padding: 228px 18px;
     }
 
+    .quality-work__info--wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .values--wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .started-steps__info--wrapper,
+    .testimonials--wrapper {
+        flex-direction: column;
+    }
+
+    .quality-work__info {
+        text-align: center;
+    }
+
     .quality-work__sticker--img {
-        max-width: 300px;
+        max-width: 500px;
 
         max-height: 300px;
         border: .5px solid rgba(124, 139, 161, 0.318);
@@ -128,12 +160,19 @@
 
     }
 
-    .review--para {
-        display: none;
-    }
+
 
     .faqs--wrapper {
-        max-width: 800px;
+        max-width: 600px;
+    }
+
+    .faq__questions--wrapper {
+        max-width: 600px;
+    }
+
+    .faq__question--wrapper {
+        max-width: 600px;
+        padding: 16px;
     }
 
     .footing-button {
@@ -149,6 +188,7 @@
 
     .footer--wrapper {
         height: 240px;
+        padding: 16px;
     }
 
     .section__name {
@@ -162,5 +202,16 @@
         font-size: 12px;
         height: 100%;
 
+    }
+
+    .logo--title-wyt {
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__copyright {
+        font-size: 12px;
     }
 }
