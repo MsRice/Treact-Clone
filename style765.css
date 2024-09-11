@@ -95,7 +95,7 @@
     }
 
     .feature__service--wrapper {
-        width: calc(100% / 2);
+        width: 100%;
     }
 
     .service__logo {
